@@ -1,0 +1,38 @@
+header{
+  color: purple;
+  margin: 0;
+  font-family: cursive;
+}
+
+h1{
+  background-color: red;
+  margin: 0;
+}
+
+main{
+  margin: 0;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+  border: 10px dashed black;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin: 0;
+  float: left;
+  border: 10px solid yellow;
+  box-sizing: border-box;
+}
+a{
+  color: yellow;
+  background-color: blue;
+  transition: 0.3s;
+}
+
+a:hover{
+  color: pink;
+  background-color: magenta;
+}
